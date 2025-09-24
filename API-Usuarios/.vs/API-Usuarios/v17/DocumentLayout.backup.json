@@ -1,7 +1,26 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Cristal Barrera\\Documents\\proyectos Brian\\Proyects\\CRUD-Usuarios\\API-Usuarios\\API-Usuarios\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C195E2A5-1B93-4CE0-A5E8-E1C3FE585A3A}|..\\Infrastructure\\Infrastructure.csproj|c:\\users\\cristal barrera\\documents\\proyectos brian\\proyects\\crud-usuarios\\api-usuarios\\infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67FCC888-B46A-425B-AF1E-D40361F8393E}|API-Usuarios.csproj|c:\\users\\cristal barrera\\documents\\proyectos brian\\proyects\\crud-usuarios\\api-usuarios\\api-usuarios\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{67FCC888-B46A-425B-AF1E-D40361F8393E}|API-Usuarios.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67FCC888-B46A-425B-AF1E-D40361F8393E}|API-Usuarios.csproj|c:\\users\\cristal barrera\\documents\\proyectos brian\\proyects\\crud-usuarios\\api-usuarios\\api-usuarios\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67FCC888-B46A-425B-AF1E-D40361F8393E}|API-Usuarios.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67FCC888-B46A-425B-AF1E-D40361F8393E}|API-Usuarios.csproj|c:\\users\\cristal barrera\\documents\\proyectos brian\\proyects\\crud-usuarios\\api-usuarios\\api-usuarios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67FCC888-B46A-425B-AF1E-D40361F8393E}|API-Usuarios.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05826EF0-590F-48AD-BA67-FCA626056C37}|..\\Application\\Application.csproj|c:\\users\\cristal barrera\\documents\\proyectos brian\\proyects\\crud-usuarios\\api-usuarios\\application\\services\\userservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +28,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 260,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Cristal Barrera\\Documents\\proyectos Brian\\Proyects\\CRUD-Usuarios\\API-Usuarios\\API-Usuarios\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Cristal Barrera\\Documents\\proyectos Brian\\Proyects\\CRUD-Usuarios\\API-Usuarios\\API-Usuarios\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-24T03:14:03.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Cristal Barrera\\Documents\\proyectos Brian\\Proyects\\CRUD-Usuarios\\API-Usuarios\\Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "..\\Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Cristal Barrera\\Documents\\proyectos Brian\\Proyects\\CRUD-Usuarios\\API-Usuarios\\Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "..\\Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAwwDgAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T03:03:07.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Cristal Barrera\\Documents\\proyectos Brian\\Proyects\\CRUD-Usuarios\\API-Usuarios\\API-Usuarios\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Cristal Barrera\\Documents\\proyectos Brian\\Proyects\\CRUD-Usuarios\\API-Usuarios\\API-Usuarios\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAgwBEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T02:58:24.875Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Cristal Barrera\\Documents\\proyectos Brian\\Proyects\\CRUD-Usuarios\\API-Usuarios\\API-Usuarios\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Cristal Barrera\\Documents\\proyectos Brian\\Proyects\\CRUD-Usuarios\\API-Usuarios\\API-Usuarios\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T02:54:16.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserServices.cs",
+              "DocumentMoniker": "C:\\Users\\Cristal Barrera\\Documents\\proyectos Brian\\Proyects\\CRUD-Usuarios\\API-Usuarios\\Application\\Services\\UserServices.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\UserServices.cs",
+              "ToolTip": "C:\\Users\\Cristal Barrera\\Documents\\proyectos Brian\\Proyects\\CRUD-Usuarios\\API-Usuarios\\Application\\Services\\UserServices.cs",
+              "RelativeToolTip": "..\\Application\\Services\\UserServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T02:50:16.618Z",
+              "EditorCaption": ""
             }
           ]
         }

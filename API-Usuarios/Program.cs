@@ -1,3 +1,8 @@
+using Domain.Interfaces;
+using Infrastructure.Interfaces;
+using Application.Services;
+using Infrastructure.Factories;
+using Infrastructure.Repositories;
 
 namespace API_Usuarios
 {
@@ -8,6 +13,9 @@ namespace API_Usuarios
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+            builder.Services.AddScoped<ISqlConnectionFactory, SqlConnectionFactory>();
+            builder.Services.AddScoped<IUserRepository, UsersRepository>();
+            builder.Services.AddScoped<IUserServices, UserServices>();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

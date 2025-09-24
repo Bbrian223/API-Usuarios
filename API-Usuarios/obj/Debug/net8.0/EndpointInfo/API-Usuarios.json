@@ -1,0 +1,22 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "API-Usuarios",
+    "version": "1.0"
+  },
+  "paths": {
+    "/User": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

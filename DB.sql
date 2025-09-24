@@ -1,0 +1,23 @@
+CREATE DATABASE TEST_CRUD
+GO
+USE TEST_CRUD
+GO
+
+CREATE TABLE USERS(
+	id INT IDENTITY(100,1),
+	firstname VARCHAR(50),
+	lastname VARCHAR(50),
+	document VARCHAR(10) UNIQUE,
+	telephone VARCHAR(15),
+	u_address VARCHAR (100),
+	city VARCHAR(100),
+	province VARCHAR(100),
+	zip INT,
+
+	PRIMARY KEY(id)
+)
+
+GO
+
+
+SELECT * FROM USERS
