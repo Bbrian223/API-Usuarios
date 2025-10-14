@@ -10,8 +10,8 @@ namespace Domain.Interfaces
 {
     public interface IUserServices
     {
-        public Task<User> GetUserByIdAsync(int id);
-        public Task<List<User>> GetAllUsersAsync();
+        public Task<UserDetailModel> GetUserByIdAsync(int id);
+        public Task<List<UserListModel>> GetAllUsersAsync();
         public Task<bool> CreateUserAsync(UserCreateModel dto);
         public Task<bool> UpdateUserAsync(UserUpdateModel dto, int id);
         public Task<bool> DeleteUserAsync(int id);

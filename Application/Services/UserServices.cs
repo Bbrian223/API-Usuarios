@@ -51,17 +51,17 @@ namespace Application.Services
             return status;
         }
 
-        async Task<List<User>> IUserServices.GetAllUsersAsync()
+        async Task<List<UserListModel>> IUserServices.GetAllUsersAsync()
         {
             var list = await _repository.GetAllUsersAsync();
 
             if (list.Count() == 0)
                 throw new Exception("El registro de usuarios esta vacio.");
 
-            return list;
+            return _mapper.Map<List<UserListModel>>(list);
         }
 
-        async Task<User> IUserServices.GetUserByIdAsync(int id)
+        async Task<UserDetailModel> IUserServices.GetUserByIdAsync(int id)
         {
             if (id <= 0)
                 throw new Exception("El ID debe ser mayor a 0.");
@@ -71,7 +71,7 @@ namespace Application.Services
             if (user is null)
                 throw new Exception($"El usuario con ID: {id}, no existe en el registro");
 
-            return user;
+            return _mapper.Map<UserDetailModel>(user);
         }
 
         async Task<bool> IUserServices.UpdateUserAsync(UserUpdateModel dto, int id)

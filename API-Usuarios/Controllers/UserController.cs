@@ -2,7 +2,6 @@
 using Domain.models;
 using Application.DTOs;
 using Microsoft.AspNetCore.Mvc;
-using AutoMapper.Configuration.Conventions;
 using Application.Responce;
 
 namespace API_Usuarios.Controllers
@@ -25,7 +24,7 @@ namespace API_Usuarios.Controllers
             {
                 var users = (await _service.GetAllUsersAsync());
 
-                var responce = new ResponceViewModel<IEnumerable<User>>(users);
+                var responce = new ResponceViewModel<IEnumerable<UserListModel>>(users);
                     
                 return Ok(responce);
             }
@@ -48,7 +47,7 @@ namespace API_Usuarios.Controllers
             {
                 var user = await _service.GetUserByIdAsync(id);
 
-                var responce = new ResponceViewModel<User>(user);
+                var responce = new ResponceViewModel<UserDetailModel>(user);
 
                 return Ok(responce);
             }

@@ -43,19 +43,14 @@ namespace Application.DTOs
 
     public class UserDetailModel : UserCreateModel
     {
-        [Required]
         public int Id { get; set; }
     }
 
     public class UserListModel
     {
-        [Required, StringLength(50, MinimumLength = 3)]
+        public int Id { get; set; }
         public string Name { get; set; }
-
-        [Required, StringLength(50, MinimumLength = 3)]
         public string Lastname { get; set; }
-
-        [Required, StringLength(10)]
         public string Document { get; set; }
 
     }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "LobmuBe3jtc=",
+  "dgSpecHash": "0OEYiAPdaGA=",
   "success": true,
   "projectFilePath": "C:\\Users\\Cristal Barrera\\Documents\\proyectos Brian\\Proyects\\CRUD-Usuarios\\API-Usuarios\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\Cristal Barrera\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\Cristal Barrera\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\Cristal Barrera\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
+    "C:\\Users\\Cristal Barrera\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.20\\microsoft.aspnetcore.authentication.jwtbearer.8.0.20.nupkg.sha512",
     "C:\\Users\\Cristal Barrera\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
     "C:\\Users\\Cristal Barrera\\.nuget\\packages\\microsoft.bcl.cryptography\\8.0.0\\microsoft.bcl.cryptography.8.0.0.nupkg.sha512",
     "C:\\Users\\Cristal Barrera\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
