@@ -1,4 +1,5 @@
-﻿using Domain.models;
+﻿using AutoMapper.Configuration.Conventions;
+using Domain.models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,5 +16,7 @@ namespace Domain.Interfaces
         public Task<bool> UpdateUserAsync(User user);
         public Task<bool> DeleteUserAsync(int id);
 
+
+        public Task<bool> IsExist(string document);
     }
 }

@@ -89,3 +89,5 @@ C:\Users\Cristal Barrera\Documents\proyectos Brian\Proyects\CRUD-Usuarios\API-Us
 C:\Users\Cristal Barrera\Documents\proyectos Brian\Proyects\CRUD-Usuarios\API-Usuarios\API-Usuarios\obj\Debug\net8.0\API-Usuarios.pdb
 C:\Users\Cristal Barrera\Documents\proyectos Brian\Proyects\CRUD-Usuarios\API-Usuarios\API-Usuarios\obj\Debug\net8.0\API-Usuarios.genruntimeconfig.cache
 C:\Users\Cristal Barrera\Documents\proyectos Brian\Proyects\CRUD-Usuarios\API-Usuarios\API-Usuarios\obj\Debug\net8.0\ref\API-Usuarios.dll
+C:\Users\Cristal Barrera\Documents\proyectos Brian\Proyects\CRUD-Usuarios\API-Usuarios\API-Usuarios\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Cristal Barrera\Documents\proyectos Brian\Proyects\CRUD-Usuarios\API-Usuarios\API-Usuarios\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

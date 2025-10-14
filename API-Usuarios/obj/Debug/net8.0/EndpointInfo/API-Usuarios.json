@@ -5,7 +5,7 @@
     "version": "1.0"
   },
   "paths": {
-    "/User": {
+    "/api/User": {
       "get": {
         "tags": [
           "User"
@@ -15,8 +15,228 @@
             "description": "OK"
           }
         }
+      },
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserCreateModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserCreateModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserCreateModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/User/{id}": {
+      "get": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "patch": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserUpdateModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserUpdateModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UserUpdateModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "User"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
       }
     }
   },
-  "components": { }
+  "components": {
+    "schemas": {
+      "UserCreateModel": {
+        "required": [
+          "address",
+          "city",
+          "document",
+          "email",
+          "lastname",
+          "name",
+          "province",
+          "telephone",
+          "zip"
+        ],
+        "type": "object",
+        "properties": {
+          "telephone": {
+            "maxLength": 10,
+            "minLength": 0,
+            "type": "string"
+          },
+          "email": {
+            "minLength": 1,
+            "type": "string",
+            "format": "email"
+          },
+          "address": {
+            "maxLength": 100,
+            "minLength": 3,
+            "type": "string"
+          },
+          "city": {
+            "maxLength": 100,
+            "minLength": 3,
+            "type": "string"
+          },
+          "province": {
+            "maxLength": 100,
+            "minLength": 3,
+            "type": "string"
+          },
+          "zip": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "maxLength": 50,
+            "minLength": 3,
+            "type": "string"
+          },
+          "lastname": {
+            "maxLength": 50,
+            "minLength": 3,
+            "type": "string"
+          },
+          "document": {
+            "maxLength": 10,
+            "minLength": 0,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "UserUpdateModel": {
+        "required": [
+          "address",
+          "city",
+          "email",
+          "province",
+          "telephone",
+          "zip"
+        ],
+        "type": "object",
+        "properties": {
+          "telephone": {
+            "maxLength": 10,
+            "minLength": 0,
+            "type": "string"
+          },
+          "email": {
+            "minLength": 1,
+            "type": "string",
+            "format": "email"
+          },
+          "address": {
+            "maxLength": 100,
+            "minLength": 3,
+            "type": "string"
+          },
+          "city": {
+            "maxLength": 100,
+            "minLength": 3,
+            "type": "string"
+          },
+          "province": {
+            "maxLength": 100,
+            "minLength": 3,
+            "type": "string"
+          },
+          "zip": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
 }

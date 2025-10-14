@@ -3,6 +3,7 @@ using Infrastructure.Interfaces;
 using Application.Services;
 using Infrastructure.Factories;
 using Infrastructure.Repositories;
+using Application.models;
 
 namespace API_Usuarios
 {
@@ -13,6 +14,7 @@ namespace API_Usuarios
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
+            builder.Services.AddAutoMapper(typeof(UserProfile).Assembly);
             builder.Services.AddScoped<ISqlConnectionFactory, SqlConnectionFactory>();
             builder.Services.AddScoped<IUserRepository, UsersRepository>();
             builder.Services.AddScoped<IUserServices, UserServices>();

@@ -1,4 +1,5 @@
-﻿using Domain.models;
+﻿using Application.DTOs;
+using Domain.models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,11 +12,9 @@ namespace Domain.Interfaces
     {
         public Task<User> GetUserByIdAsync(int id);
         public Task<List<User>> GetAllUsersAsync();
-        public Task<bool> CreateUserAsync(User user);
-        public Task<bool> UpdateUserAsync(User user);
+        public Task<bool> CreateUserAsync(UserCreateModel dto);
+        public Task<bool> UpdateUserAsync(UserUpdateModel dto, int id);
         public Task<bool> DeleteUserAsync(int id);
-
-        //agregar metodos para validar datos
 
     }
 }
